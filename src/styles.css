@@ -401,3 +401,59 @@ button { font: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+/* Project card highlight effect */
+.project-card {
+  transition:
+          transform 0.25s ease,
+          box-shadow 0.25s ease,
+          border-color 0.25s ease,
+          background-color 0.25s ease;
+}
+
+.project-card .project-content {
+  transition: background-color 0.25s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .project-card:hover {
+    background: #17191a;
+    border-color: #17191a;
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px #00000020;
+  }
+
+  .project-card:hover .project-content h3 {
+    color: #ffffff;
+  }
+
+  .project-card:hover .project-category {
+    color: #65cfc1;
+  }
+
+  .project-card:hover .project-content > p {
+    color: #b8c2bf;
+  }
+
+  .project-card:hover .tech-tags span {
+    color: #d5ddda;
+    background: #252b2a;
+    border-color: #414a47;
+  }
+
+  .project-card:hover .project-links {
+    border-top-color: #3b4441;
+  }
+
+  .project-card:hover .project-links a {
+    color: #f1f5f4;
+  }
+
+  .project-card:hover .project-links a:hover {
+    color: #65cfc1;
+  }
+}
+
+/* Keyboard accessibility */
+.project-card:focus-within {
+  border-color: #0f766e;
+}
