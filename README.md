@@ -1,3 +1,4 @@
+
 # Ankith H S — Personal Portfolio
 
 Welcome to my personal portfolio! I'm a Computer Science Engineering student at Malnad College of Engineering, Hassan, passionate about software development and building practical projects.
@@ -6,7 +7,7 @@ This portfolio showcases my technical skills, projects, education, and journey a
 
 ## Live Demo
 
-Coming soon!
+[**Visit My Portfolio**](https://ankith-portfolio-flame.vercel.app/)
 
 ## Built With
 
@@ -29,6 +30,7 @@ Coming soon!
 ## Projects
 
 ### 1. Karigo
+
 A full-stack service marketplace connecting customers with service professionals.
 
 **Tech stack:** React, Vite, Node.js, Express, PostgreSQL, JWT
@@ -36,6 +38,7 @@ A full-stack service marketplace connecting customers with service professionals
 [View Repository](https://github.com/Ankith-Achar-27/Karigo)
 
 ### 2. CodeMe
+
 An AI-powered DSA learning platform that recommends coding problems, tracks progress, and provides progressive hints.
 
 **Tech stack:** React, Vite, Node.js, Express, MongoDB, Google Gemini
@@ -91,7 +94,7 @@ npm run build
 
 - **GitHub:** [Ankith-Achar-27](https://github.com/Ankith-Achar-27)
 - **LinkedIn:** [Ankith H S](https://www.linkedin.com/in/ankith-h-s-27smet/)
-- **Email:** ankith.achar.dev@gmail.com
+- **Email:** [ankith.achar.dev@gmail.com](mailto:ankith.achar.dev@gmail.com)
 
 ---
 
