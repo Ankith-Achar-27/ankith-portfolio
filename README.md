@@ -90,7 +90,7 @@ npm run build
 ## Connect With Me
 
 - **GitHub:** [Ankith-Achar-27](https://github.com/Ankith-Achar-27)
-- **LinkedIn:** Add your LinkedIn profile URL
+- **LinkedIn:** [Add your LinkedIn profile URL](https://www.linkedin.com/in/ankith-h-s-27smet/)
 - **Email:** ankith.achar.dev@gmail.com
 
 ---
