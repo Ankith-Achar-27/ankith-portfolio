@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from 'react';
+import profileImage from './images/profile.jpeg';
 import {
   ArrowDownRight, ArrowUpRight, Github, Linkedin, Mail, Menu, X,
   Code2, LayoutPanelTop, Server, Database, ExternalLink, MapPin,
@@ -106,7 +107,7 @@ function Hero() {
             <div className="hero-photo-wrap">
                 <div className="hero-photo">
                     <img
-                        src="/src/images/profile.jpeg"
+                        src={profileImage}
                         alt="Ankith H S - Profile"
                         className="profile-image"
                     />
